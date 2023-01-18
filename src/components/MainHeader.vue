@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <ul>
-      <li>A24</li>
+    <ul class="flex">
+      <li>TearsOfJoy</li>
       <li>Films</li>
       <li>TV</li>
       <li>Docs</li>
