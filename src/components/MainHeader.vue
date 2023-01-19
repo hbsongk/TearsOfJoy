@@ -1,7 +1,7 @@
 <template>
   <nav>
     <ul class="flex">
-      <li>TearsOfJoy</li>
+      <li class="text-3xl">TearsOfJoy</li>
       <li>Films</li>
       <li>TV</li>
       <li>Docs</li>
@@ -15,9 +15,12 @@
 </template>
 
 <script>
+
 export default {
   name: "MainHeader",
 };
 </script>
 
-<style></style>
+<style>
+
+</style>
