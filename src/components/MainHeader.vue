@@ -1,17 +1,19 @@
 <template>
-  <nav class="flex justify-between md:text-xl text-2xl">
+  <nav class="flex justify-between">
     <span id="home" class="m-8 text-3xl">TearsOfJoy</span>
-    <ul class="hidden md:flex md:block md:gap-12 md:m-8">
+    <ul
+      class="mx-8 items-center hidden text-[17px] lg:flex lg:gap-8 2xl:text-[20px]"
+    >
       <li>Films</li>
       <li>TV</li>
       <li>Docs</li>
       <li>Notes</li>
       <li>Shops</li>
       <li>AAA24Icon</li>
-      <li>ScreeningroomIcon</li>
-      <li>SearchingIcon</li>
+      <li>Screeningroom</li>
+      <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
     </ul>
-    <i class="text-3xl m-8 md:hidden fa-solid fa-bars"></i>
+    <i class="text-3xl m-8 lg:hidden fa-solid fa-bars"></i>
   </nav>
 </template>
 
